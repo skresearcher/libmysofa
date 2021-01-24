@@ -5,9 +5,9 @@ include(CheckCCompilerFlag)
 include(GenerateExportHeader)
 include(GNUInstallDirs)
 
-option(BUILD_TESTS "Build test programs" ON)
+option(BUILD_TESTS "Build test programs" OFF)
 option(BUILD_SHARED_LIBS "Build shared library" ON)
-option(BUILD_STATIC_LIBS "Build static library" ON)
+option(BUILD_STATIC_LIBS "Build static library" OFF)
 option(CODE_COVERAGE "Enable coverage reporting" OFF)
 option(ADDRESS_SANITIZE "Enable address sanitizer" OFF)
 
